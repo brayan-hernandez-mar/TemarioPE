@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Temario Probabilidad y Estadística</title>
+<style>
+body {
+    /* Otros estilos aquí */
+}
+
+#titulo-principal {
+    color: #a7a7a700; /* Cambia este valor por el color que prefieras */
+    font-size: 24px; /* Opcional: ajustar el tamaño de la fuente */
+    text-align: center; /* Opcional: centrar el texto */
+}
+
+header {
+    background-color: #4CAF50;
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    color: rgb(255, 255, 255); /* Cambia este valor por el color que prefieras */
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h1, h2, h3 {
+    color: #4CAF50;
+}
+
+h1 {
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
+}
+
+p, ul, ol {
+    margin-bottom: 20px;
+}
+
+code {
+    background-color: #f4f4f4;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+</style>
+</head>
+<body>
+<header>
+    <h1>Temario Probabilidad y Estadística</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#introduccion">Introducción</a></li>
+        <li><a href="#1.1 Estadística descriptiva">1.1 Estadística descriptiva</a></li>
+        <li><a href="#1.2 Datos agrupados y no agrupados">1.2 Datos agrupados y no agrupados</a></li>
+        <li><a href="#1.4 Parámetros para datos agrupados">1.4 Parámetros para datos agrupados</a></li>
+        <li><a href="#1.5 Distribución de frecuencias">1.5 Distribución de frecuencias</a></li>
+        <li><a href="#1.6 Técnicas de agrupación de datos">1.6 Técnicas de agrupación de datos</a></li>
+        <li><a href="#2.1-Tecnicas-de-Conteo">2.1-Tecnicas-de-Conteo</a></li>
+        <li><a href="#2.1.1-Principio-aditivo">2.1.1-Principio-aditivo</a></li>
+        <li><a href="#2.1.2-Principio-multiplicativo">2.1.2-Principio-multiplicativo</a></li>
+        <li><a href="#2.1.3-Notacion-Factorial">2.1.3-Notacion-Factorial</a></li>
+        <li><a href="#2.1.4-Permutaciones">2.1.4-Permutaciones</a></li>
+        <li><a href="#2.1.5-Combinaciones">2.1.5-Combinaciones</a></li>
+        <li><a href="#2.1.6-Diagrama-de-Arbol">2.1.6-Diagrama-de-Arbol</a></li>
+        <li><a href="#2.1.7-Teorema-del-Binomio">2.1.7-Teorema-del-Binomio</a></li>
+        <li><a href="#2.2-Teoria-elemental-de-probabilidad">2.2-Teoria-elemental-de-probabilidad</a></li>
+        <li><a href="#2.3-Probabilidad-de-Eventos">2.3-Probabilidad-de-Eventos</a></li>
+        <li><a href="#2.4-Probabilidad-con-Tecnicas-de-Conteo">2.4-Probabilidad-con-Tecnicas-de-Conteo</a></li>
+        <li><a href="#2.5-Probabilidad-condicional">2.5-Probabilidad-condicional</a></li>
+        <li><a href="#2.6-Ley-multiplicativa">2.6-Ley-multiplicativa</a></li>
+        <li><a href="#2.7-Eventos-independientes-Regla-de-Bayes">2.7-Eventos-independientes-Regla-de-Bayes</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section id="introduccion">
+        <h2>Introducción</h2>
+        <!-- Contenido de la introducción -->
+    </section>
+
+    <section id="1.1 Estadística descriptiva">
+        <h2>1.1 Estadística descriptiva</h2>
+
+        <section id="Descripción de datos:">
+            <h2>Descripción de datos:</h2>
+            <h3>Conceptos básicos de estadística</h3>
+            <p>La estadística es una disciplina que se encarga de recopilar, organizar, analizar e interpretar datos para obtener información significativa. A continuación, se presentan algunos conceptos fundamentales:</p>
+
+            <h3>Definición</h3>
+            <p>Definición: La estadística es una rama de las matemáticas que se ocupa de recopilar, organizar, analizar e interpretar datos numéricos o cualitativos para describir características de una población o tomar decisiones basadas en la información disponible. Su objetivo es extraer conclusiones válidas y confiables a partir de los datos, utilizando métodos y técnicas estadísticas adecuadas.</p>
+
+            <h3>Teoría de decisión</h3>
+            <p>La teoría de decisión es una rama de la estadística que se enfoca en tomar decisiones óptimas en situaciones de incertidumbre. Se basa en el análisis de diferentes alternativas y la evaluación de sus consecuencias, teniendo en cuenta las probabilidades asociadas a los resultados posibles. La teoría de decisión proporciona herramientas para evaluar riesgos y maximizar la utilidad o minimizar las pérdidas en función de los objetivos y preferencias del decisor.</p>
+
+            <h3>Población</h3>
+            <p>En estadística, una población se refiere al conjunto completo de elementos o individuos que se desea estudiar. Puede ser cualquier grupo de interés, como personas, objetos, eventos, etc. El objetivo principal en estadística es obtener información sobre la población en su conjunto, pero en muchos casos esto puede ser costoso o impracticable. En lugar de estudiar toda la población, se selecciona una muestra representativa para inferir conclusiones sobre la población en general. La selección adecuada de la muestra es esencial para obtener resultados válidos y confiables.</p>
+
+            <h3>Muestra aleatoria</h3>
+            <p>Una muestra aleatoria es un subconjunto representativo de la población que se selecciona de manera aleatoria. Se utiliza para obtener información sobre la población en general sin tener que estudiar todos sus elementos. La selección aleatoria garantiza que cada miembro de la población tenga la misma probabilidad de ser incluido en la muestra, lo que ayuda a reducir sesgos y obtener conclusiones más generalizables. Una muestra aleatoria bien diseñada es crucial para garantizar la validez y representatividad de los resultados estadísticos.</p>
+
+            <h3>Parámetros aleatorios</h3>
+            <p>En estadística, los parámetros son medidas numéricas que describen características de una población. Un parámetro aleatorio es una variable cuyo valor puede variar de una muestra a otra. Estos parámetros son estimados utilizando estadísticas calculadas a partir de la muestra, como la media muestral, la desviación estándar muestral o la proporción muestral. Estimar los parámetros permite hacer inferencias sobre la población a partir de la información de la muestra. El uso de parámetros aleatorios refleja la incertidumbre inherente a la estimación de los valores poblacionales basados en una muestra limitada.</p>
+
+            <section id="1.2 Datos agrupados y no agrupados">
+                <h2>1.2 Datos agrupados y no agrupados </h2>
+                <p>A continuación, se presentan los conceptos relacionados con los datos agrupados y no agrupados, así como la frecuencia de clase, frecuencia relativa, punto medio y límites:</p>
+
+                <h3>Datos agrupados y no agrupados</h3>
+                <p>Los datos pueden presentarse en dos formas principales: agrupados y no agrupados. Los datos no agrupados, también conocidos como datos individuales, son una lista de valores observados sin ningún tipo de agrupación o categorización. Por ejemplo, una lista de edades individuales de un grupo de personas. Por otro lado, los datos agrupados implican la clasificación de los valores en categorías o intervalos. Por ejemplo, agrupar las edades en rangos como 0-10, 11-20, 21-30, etc. Los datos agrupados se utilizan cuando hay una gran cantidad de valores y se busca resumir la información en categorías más manejables.</p>
+
+                <h3>Frecuencia de clase</h3>
+                <p>La frecuencia de clase es el número de veces que ocurren los valores dentro de un determinado intervalo o clase en datos agrupados. Por ejemplo, si se agrupan las edades en intervalos de 10 años, la frecuencia de clase sería el recuento de personas que caen dentro de cada intervalo. La frecuencia de clase proporciona información sobre la distribución y concentración de los datos dentro de los diferentes intervalos.</p>
+
+                <h3>Frecuencia relativa</h3>
+                <p>La frecuencia relativa es la proporción o porcentaje de veces que ocurre una determinada clase en relación con el total de datos. Se calcula dividiendo la frecuencia de clase de una categoría por el tamaño total de la muestra. La frecuencia relativa permite comparar la importancia relativa de cada categoría y comprender la distribución de los datos de manera más significativa.</p>
+
+                <h3>Punto medio</h3>
+                <p>El punto medio es el valor central o representativo de cada intervalo en datos agrupados. Se calcula sumando los límites inferior y superior de cada intervalo y dividiendo el resultado por 2. El punto medio se utiliza para resumir y representar cada clase de manera más compacta y fácil de interpretar.</p>
+
+                <h3>Límites</h3>
+                <p>Los límites son los valores que definen los extremos de cada intervalo en datos agrupados. Hay dos tipos de límites: límite inferior y límite superior. El límite inferior es el valor más bajo de cada intervalo, mientras que el límite superior es el valor más alto. Los límites se utilizan para agrupar los datos y delimitar las categorías o intervalos en los que se clasifican los valores.</p>
+            </section>
+            <section id="1.3 Medidas">
+                <h2>1.3 Medidas</h2>
+                <p>A continuación, se presentan los conceptos relacionados con las medidas de tendencia central y dispersión:</p>
+
+                <h3>Medidas de tendencia central</h3>
+                <p>Las medidas de tendencia central son utilizadas para resumir y representar la ubicación central de un conjunto de datos. Algunas de las medidas más comunes son:</p>
+
+                <ul>
+                    <li>Media aritmética: Es el promedio de los valores de un conjunto de datos. Se calcula sumando todos los valores y dividiendo entre el número total de valores.</li>
+                    <li>Mediana: Es el valor que divide a los datos ordenados en dos partes iguales. Es el punto medio de un conjunto de datos.</li>
+                    <li>Moda: Es el valor o valores que aparecen con mayor frecuencia en un conjunto de datos.</li>
+                </ul>
+
+                <h3>Medidas de dispersión</h3>
+                <p>Las medidas de dispersión indican la variabilidad o dispersión de los datos en torno a la medida de tendencia central. Algunas de las medidas más comunes son:</p>
+
+                <ul>
+                    <li>Rango: Es la diferencia entre el valor máximo y el valor mínimo de un conjunto de datos.</li>
+                    <li>Varianza: Es la medida de la dispersión de los datos con respecto a la media. Se calcula promediando los cuadrados de las diferencias entre cada valor y la media.</li>
+                    <li>Desviación estándar: Es la raíz cuadrada de la varianza y representa la dispersión promedio de los datos alrededor de la media.</li>
+                </ul>
+            </section>
+        </section>
+
+        <section id="1.4 Parámetros para datos agrupados">
+            <h2>1.4 Parámetros para datos agrupados</h2>
+            <p>A continuación, se presentan los conceptos relacionados con los parámetros para datos agrupados:</p>
+
+            <h3>Parámetros</h3>
+            <p>Los parámetros son medidas numéricas que describen características de una población o muestra. En el caso de los datos agrupados, los parámetros se calculan utilizando las frecuencias de clase y los puntos medios. Algunos de los parámetros más comunes son:</p>
+
+            <ul>
+                <li>Media de datos agrupados: Se calcula multiplicando cada punto medio por su frecuencia de clase correspondiente, sumando estos productos y dividiendo por el tamaño total de la muestra.</li>
+                <li>Varianza de datos agrupados: Se calcula utilizando las frecuencias de clase y los puntos medios para determinar la dispersión de los datos agrupados en torno a la media.</li>
+                <li>Desviación estándar de datos agrupados: Es la raíz cuadrada de la varianza de datos agrupados y representa la dispersión promedio de los datos alrededor de la media.</li>
+            </ul>
+        </section>
+
+        <section id="1.5 Distribución de frecuencias">
+            <h2>1.5 Distribución de frecuencias</h2>
+            <p>A continuación, se presentan los conceptos relacionados con la distribución de frecuencias:</p>
+
+            <h3>Distribución de frecuencias</h3>
+            <p>La distribución de frecuencias es una representación tabular o gráfica de la frecuencia con la que ocurren los valores en un conjunto de datos. Ayuda a comprender la distribución y concentración de los datos. Algunos de los conceptos clave son:</p>
+
+            <ul>
+                <li>Tabla de frecuencias: Es una tabla que muestra la frecuencia de cada clase o intervalo de datos.</li>
+                <li>Histograma: Es una representación gráfica de la distribución de frecuencias, donde se utilizan barras para mostrar la frecuencia de cada clase.</li>
+                <li>Polígono de frecuencias: Es una representación gráfica de la distribución de frecuencias utilizando líneas que conectan los puntos medios de cada clase.</li>
+            </ul>
+        </section>
+
+        <section id="1.6 Técnicas de agrupación de datos">
+            <h2>1.6 Técnicas de agrupación de datos</h2>
+            <p>A continuación, se presentan algunas técnicas de agrupación de datos:</p>
+
+            <h3>Técnicas de agrupación</h3>
+            <p>Las técnicas de agrupación de datos se utilizan para organizar y resumir grandes conjuntos de datos en categorías o intervalos más manejables. Algunas de las técnicas más comunes son:</p>
+
+            <ul>
+                <li>Intervalos equidistantes: Consiste en dividir el rango de datos en intervalos de igual longitud.</li>
+                <li>Agrupación por cuantiles: Consiste en dividir los datos en intervalos que contienen el mismo número de observaciones.</li>
+                <li>Agrupación jerárquica: Consiste en agrupar los datos en niveles jerárquicos según sus similitudes.</li>
+            </ul>
+        </section>
+        <h2>Fundamentos  de la Teoría de Probabilidad.</h2>
+
+                      <section id="2.1-Tecnicas-de-Conteo">
+                        <h2>2.1 Técnicas de Conteo</h2>
+                        <p>Las técnicas de conteo son métodos fundamentales utilizados en combinatoria y probabilidad para determinar el número de formas en que se pueden organizar o seleccionar elementos de un conjunto. Estas técnicas incluyen el principio aditivo, el principio multiplicativo, la notación factorial, las permutaciones, las combinaciones y el diagrama de árbol.</p>
+                      
+                        <section id="2.1.1-Principio-aditivo">
+                          <h2>2.1.1 Principio aditivo</h2>
+                          <p>El principio aditivo establece que si un evento puede ocurrir de <code>m</code> maneras y otro evento mutuamente excluyente puede ocurrir de <code>n</code> maneras, entonces hay <code>m + n</code> maneras de que ocurra uno de los eventos. Este principio se aplica cuando los eventos son independientes y no se superponen.</p>
+                          <p>Por ejemplo, si tienes 3 camisas rojas y 4 camisas azules, hay 7 maneras de elegir una camisa (3 rojas + 4 azules).</p>
+                        </section>
+                      
+                        <section id="2.1.2-Principio-multiplicativo">
+                          <h2>2.1.2 Principio multiplicativo</h2>
+                          <p>El principio multiplicativo establece que si un evento puede ocurrir de <code>m</code> maneras y, para cada una de estas maneras, otro evento puede ocurrir de <code>n</code> maneras, entonces hay <code>m × n</code> maneras de que ocurran ambos eventos. Este principio se aplica cuando los eventos son independientes y no se superponen.</p>
+                          <p>Por ejemplo, si tienes 3 camisas (roja, azul y verde) y 2 pantalones (negro y gris), hay 6 formas de elegir una camisa y un pantalón (3 camisas x 2 pantalones).</p>
+                        </section>
+                      
+                        <section id="2.1.3-Notacion-Factorial">
+                          <h2>2.1.3 Notación Factorial</h2>
+                          <p>La notación factorial (denotada como <code>n!</code>) es el producto de todos los números enteros positivos hasta <code>n</code>. Por ejemplo, <code>5! = 5 × 4 × 3 × 2 × 1 = 120</code>. Esta notación se utiliza comúnmente en el cálculo de permutaciones y combinaciones.</p>
+                        </section>
+                      
+                        <section id="2.1.4-Permutaciones">
+                          <h2>2.1.4 Permutaciones</h2>
+                          <p>Las permutaciones se refieren a las diferentes formas en que se pueden ordenar un conjunto de elementos. El número de permutaciones de <code>n</code> elementos se calcula como <code>n!</code>.</p>
+                          <p>Por ejemplo, si tienes los elementos A, B y C, las permutaciones posibles son: ABC, ACB, BAC, BCA, CAB y CBA.</p>
+                        </section>
+                      
+                        <section id="2.1.5-Combinaciones">
+                          <h2>2.1.5 Combinaciones</h2>
+                          <p>Las combinaciones son selecciones de elementos de un conjunto sin importar el orden. El número de combinaciones de <code>n</code> elementos tomados de <code>r</code> en <code>r</code> se denota como <code>C(n, r)</code> o <code>(n choose r)</code> y se calcula como <code>n! / (r!(n-r)!)</code>.</p>
+                          <p>Por ejemplo, si tienes los elementos A, B, C y D, las combinaciones de 2 elementos son: AB, AC, AD, BC, BD y CD.</p>
+                        </section>
+                      
+                        <section id="2.1.6-Diagrama-de-Arbol">
+                          <h2>2.1.6 Diagrama de Árbol</h2>
+                          <p>Un diagrama de árbol es una representación gráfica que se utiliza para mostrar todas las posibles combinaciones o permutaciones de un conjunto de eventos. Ayuda a visualizar el proceso de conteo y puede ser útil para resolver problemas de conteo más complejos.</p>
+                          <p>Por ejemplo, un diagrama de árbol puede mostrar todas las posibles formas de lanzar una moneda dos veces (cara-cara, cara-cruz, cruz-cara, cruz-cruz).</p>
+                        </section>
+                      
+                        <section id="2.1.7-Teorema-del-Binomio">
+                          <h2>2.1.7 Teorema del Binomio</h2>
+                          <p>El teorema del binomio proporciona una fórmula para expandir binomios elevados a una potencia. Se expresa como <code>(a + b)^n = ∑(k=0 to n) (n choose k) a^(n-k) b^k</code>. Este teorema tiene aplicaciones en el cálculo de probabilidades y en el desarrollo de series binomiales.</p>
+                          <p>Por ejemplo, la expansión de (x + y)^3 es x^3 + 3x^2y + 3xy^2 + y^3, que se puede calcular usando el teorema del binomio.</p>
+                        </section>
+                        <section id="2.2-Teoria-elemental-de-probabilidad">
+                          <h2>2.2 Teoría elemental de probabilidad</h2>
+                          <p>La teoría elemental de probabilidad establece los conceptos básicos y definiciones fundamentales para el estudio de la probabilidad. Incluye los siguientes elementos:</p>
+                          <ul>
+                            <li>Espacio muestral: el conjunto de todos los posibles resultados de un experimento aleatorio.</li>
+                            <li>Evento: un subconjunto del espacio muestral que representa un resultado o conjunto de resultados de interés.</li>
+                            <li>Probabilidad: una medida que cuantifica la posibilidad de que un evento ocurra, con valores entre 0 y 1.</li>
+                            <li>Probabilidad simple: la probabilidad de que un evento individual ocurra.</li>
+                            <li>Probabilidad compuesta: la probabilidad de que ocurran múltiples eventos.</li>
+                          </ul>
+                        </section>
+                        
+                        <section id="2.3-Probabilidad-de-Eventos">
+                          <h2>2.3 Probabilidad de Eventos: Definición de espacio muestral, definición de evento, simbología, unión, intersección, diagramas de Venn</h2>
+                          <p>Esta sección aborda los conceptos básicos de probabilidad de eventos, incluyendo:</p>
+                          <ul>
+                            <li>Definición de espacio muestral: el conjunto de todos los posibles resultados de un experimento aleatorio.</li>
+                            <li>Definición de evento: un subconjunto del espacio muestral que representa un resultado o conjunto de resultados de interés.</li>
+                            <li>Simbología: la notación utilizada para representar eventos, como A, B, C, etc.</li>
+                            <li>Unión de eventos: el evento que ocurre cuando al menos uno de los eventos individuales ocurre.</li>
+                            <li>Intersección de eventos: el evento que ocurre cuando todos los eventos individuales ocurren simultáneamente.</li>
+                            <li>Diagramas de Venn: representaciones gráficas que muestran las relaciones entre eventos.</li>
+                          </ul>
+                        </section>
+                        
+                        <section id="2.4-Probabilidad-con-Tecnicas-de-Conteo">
+                          <h2>2.4 Probabilidad con Técnicas de Conteo: Axiomas, Teoremas</h2>
+                          <p>Esta sección cubre la aplicación de las técnicas de conteo a la probabilidad, incluyendo:</p>
+                          <ul>
+                            <li>Axiomas de probabilidad: los principios fundamentales que rigen la probabilidad.</li>
+                            <li>Teoremas de probabilidad: resultados que se derivan de los axiomas y se utilizan para calcular probabilidades.</li>
+                            <li>Aplicación de las técnicas de conteo, como el principio aditivo, el principio multiplicativo, permutaciones y combinaciones, para calcular probabilidades.</li>
+                          </ul>
+                        </section>
+                        
+                        <section id="2.5-Probabilidad-condicional">
+                          <h2>2.5 Probabilidad condicional: Dependiente, Independiente</h2>
+                          <p>La probabilidad condicional se refiere a la probabilidad de que ocurra un evento dado que otro evento ha ocurrido. Esta sección incluye:</p>
+                          <ul>
+                            <li>Probabilidad condicional dependiente: cuando la probabilidad de un evento depende de la ocurrencia de otro evento.</li>
+                            <li>Probabilidad condicional independiente: cuando la probabilidad de un evento no depende de la ocurrencia de otro evento.</li>
+                            <li>Fórmulas y cálculos de probabilidad condicional.</li>
+                          </ul>
+                        </section>
+                        
+                        <section id="2.6-Ley-multiplicativa">
+                          <h2>2.6 Ley multiplicativa</h2>
+                          <p>La ley multiplicativa establece que la probabilidad de que ocurran múltiples eventos independientes es igual al producto de las probabilidades individuales de cada evento. Esta sección cubre:</p>
+                          <ul>
+                            <li>Definición y aplicación de la ley multiplicativa.</li>
+                            <li>Cálculo de probabilidades de eventos independientes.</li>
+                          </ul>
+                        </section>
+                        
+                        <section id="2.7-Eventos-independientes-Regla-de-Bayes">
+                          <h2>2.7 Eventos independientes: Regla de Bayes</h2>
+                          <p>Esta sección aborda los conceptos de eventos independientes y la Regla de Bayes:</p>
+                          <ul>
+                            <li>Eventos independientes: cuando la ocurrencia de un evento no afecta la probabilidad de que ocurra otro evento.</li>
+                            <li>Regla de Bayes: una fórmula que permite calcular la probabilidad de que ocurra un evento dado que ha ocurrido otro evento.</li>
+                            <li>Aplicaciones de la Regla de Bayes en problemas de probabilidad.</li>
+                          </ul>
+                        </section>
+    </section>
+</main>
+</body>
+</html>
