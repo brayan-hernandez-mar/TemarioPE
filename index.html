@@ -5,14 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Temario Probabilidad y Estadística</title>
 <style>
-body {
-    /* Otros estilos aquí */
-}
 
 #titulo-principal {
-    color: #a7a7a700; /* Cambia este valor por el color que prefieras */
-    font-size: 24px; /* Opcional: ajustar el tamaño de la fuente */
-    text-align: center; /* Opcional: centrar el texto */
+    color: hsla(0, 0%, 65%, 0); 
+    font-size: 24px; 
+    text-align: center;
 }
 
 header {
@@ -116,20 +113,28 @@ code {
         <li><a href="#3.2.3 Variancia, desviación estándar.">3.2.3 Variancia, desviación estándar.</a></li>
         <li><a href="#3.2.4 Función acumulada">3.2.4 Función acumulada</a></li>
         <li><a href="#3.2.5 Cálculos de probabilidad.">3.2.5 Cálculos de probabilidad.</a></li>
+        <li><a href="#4.1 Función de probabilidad:">4.1 Función de probabilidad:</a></li>
+        <li><a href="#4.2 Distribución binomial.">4.2 Distribución binomial.</a></li>
+        <li><a href="#4.3 Distribución hipergeométrica">4.3 Distribución hipergeométrica</a></li>
+        <li><a href="#4.4 Distribución de Poisson.">4.4 Distribución de Poisson.</a></li>
+        <li><a href="#4.5 Distribución normal.">4.5 Distribución normal.</a></li>
+        <li><a href="#4.6 Distribución T-student">4.6 Distribución T-student</a></li>
+        <li><a href="#4.7 Distribución Chi-cuadrada">4.7 Distribución Chi-cuadrada</a></li>
+        <li><a href="#4.8 Distribución F">4.8 Distribución F</a></li>
     </ul>
 </nav>
 
 <main>
     <section id="introduccion">
         <h2>Introducción</h2>
-        <!-- Contenido de la introducción -->
-    </section>
+         En este apartado se dara a conocer una breve explicacion de los temas que se abordaran a lo largo de este curso de probabilidad y estadística
+      </section>
 
     <section id="1.1 Estadística descriptiva">
-        <h2>1.1 Estadística descriptiva</h2>
+        <h2>TEMA 1: Estadística descriptiva</h2>
 
         <section id="Descripción de datos:">
-            <h2>Descripción de datos:</h2>
+            <h2>1.1 Descripción de datos:</h2>
             <h3>Conceptos básicos de estadística</h3>
             <p>La estadística es una disciplina que se encarga de recopilar, organizar, analizar e interpretar datos para obtener información significativa. A continuación, se presentan algunos conceptos fundamentales:</p>
 
@@ -146,7 +151,7 @@ code {
             <p>Una muestra aleatoria es un subconjunto representativo de la población que se selecciona de manera aleatoria. Se utiliza para obtener información sobre la población en general sin tener que estudiar todos sus elementos. La selección aleatoria garantiza que cada miembro de la población tenga la misma probabilidad de ser incluido en la muestra, lo que ayuda a reducir sesgos y obtener conclusiones más generalizables. Una muestra aleatoria bien diseñada es crucial para garantizar la validez y representatividad de los resultados estadísticos.</p>
 
             <h3>Parámetros aleatorios</h3>
-            <p>En estadística, los parámetros son medidas numéricas que describen características de una población. Un parámetro aleatorio es una variable cuyo valor puede variar de una muestra a otra. Estos parámetros son estimados utilizando estadísticas calculadas a partir de la muestra, como la media muestral, la desviación estándar muestral o la proporción muestral. Estimar los parámetros permite hacer inferencias sobre la población a partir de la información de la muestra. El uso de parámetros aleatorios refleja la incertidumbre inherente a la estimación de los valores poblacionales basados en una muestra limitada.</p>
+            <p>En estadística, los parámetros son medidas numéricas que describen características de una población. Un parámetro aleatorio es una variable cuyo valor puede variar SSde una muestra a otra. Estos parámetros son estimados utilizando estadísticas calculadas a partir de la muestra, como la media muestral, la desviación estándar muestral o la proporción muestral. Estimar los parámetros permite hacer inferencias sobre la población a partir de la información de la muestra. El uso de parámetros aleatorios refleja la incertidumbre inherente a la estimación de los valores poblacionales basados en una muestra limitada.</p>
 
             <section id="1.2 Datos agrupados y no agrupados">
                 <h2>1.2 Datos agrupados y no agrupados </h2>
@@ -360,9 +365,9 @@ code {
                         <section id="3.1.1 Distribución de probabilidad en forma general.">
                         <h2>3.1.1 Distribución de probabilidad en forma 
                           general.</h2>
-                        <li>La distribución de probabilidad de una variable aleatoria discreta X se define a través de la función de masa de probabilidad (FMP), denotada como P(X=x).
+                        La distribución de probabilidad de una variable aleatoria discreta X se define a través de la función de masa de probabilidad (FMP), denotada como P(X=x).
 
-                          La FMP tiene las siguientes características generales:</li>
+                          La FMP tiene las siguientes características generales:
                           <ul>
                             <li>Dominio: La FMP está definida para cada valor x que puede tomar la variable aleatoria X, es decir, para el conjunto de valores discretos que puede asumir X.</li>
                             <li>No Negatividad: La probabilidad P(X=x) es siempre un número no negativo, es decir, P(X=x) ≥ 0 para todo x en el dominio de X.</li>
@@ -371,7 +376,7 @@ code {
                       </section>
                       <section id="3.1.2 Valor esperado">
                         <h2>3.1.2 Valor esperado</h2>
-                        <li>El valor esperado, denotado como E[X] o μ, se define como:
+                        El valor esperado, denotado como E[X] o μ, se define como:
 
                           E[X] = ∑ x * P(X=x)
                           
@@ -379,7 +384,7 @@ code {
                           
                           x son los posibles valores que puede tomar la variable aleatoria X
                           P(X=x) es la función de masa de probabilidad, es decir, la probabilidad de que X tome el valor x.
-                          Donde normalmente se aplica es: </li>
+                          Donde normalmente se aplica es:
                           <ul>
                             <li>Permite calcular la esperanza de funciones lineales de X.</li>
                             <li>Es útil en análisis de riesgo, teoría de juegos, control de calidad, entre otros.</li>
@@ -399,31 +404,33 @@ code {
                         <h2>3.1.4 Función acumulada.</h2>
                         <li>La función de distribución acumulada proporciona información completa sobre la distribución de probabilidad de una variable aleatoria discreta. Permite calcular probabilidades de que X tome valores en un cierto rango, y también facilita la caracterización gráfica de la distribución.</li>
                       </section>
-                      <h2>3.2 Variables aleatorias Continuas:</h2>
+                      <h1>3.2 Variables aleatorias Continuas:</h1>
                     </section>
                     <section id="3.2.1Distribución de probabilidad en forma general">
                       <h2>3.2.1Distribución de probabilidad en forma general</h2>
-                      <li>Una distribución de probabilidad discreta es la función que asigna una probabilidad a cada uno de los posibles valores que puede tomar una variable aleatoria discreta X. Esta función se denomina función de masa de probabilidad, denotada como P(X=x).</li>
+                      Una distribución de probabilidad discreta es la función que asigna una probabilidad a cada uno de los posibles valores que puede tomar una variable aleatoria discreta X. Esta función se denomina función de masa de probabilidad, denotada como P(X=x).
                     </section>
                     <section id="3.2.2 Valor esperado">
                       <h2>3.2.2 Valor esperado</h2>
-                      <li>El valor esperado, denotado como E[X] o μ, representa el valor promedio o central de una variable aleatoria discreta X.</li>
+                      El valor esperado, denotado como E[X] o μ, representa el valor promedio o central de una variable aleatoria discreta X.
                     </section>
-                    <section id="3.2.3 Variancia, desviación estándar."> 
-                      <li><h2>Variancia (Var(X)): </h2>
+
+                    <section id="3.2.3 Variancia, desviación estándar.">
+                      <h2>3.2.3 Variancia, desviación estándar</h2>
+                      <h3>Variancia (Var(X)): </h3>
                         La variancia de una variable aleatoria discreta X mide cuánto se dispersan o varían los valores de X alrededor de su valor esperado.
                         Se define formalmente como: Var(X) = E[(X - E[X])^2] = E[X^2] - (E[X])^2.
                         Tiene propiedades como Var(aX + b) = a^2 * Var(X) y Var(X + Y) = Var(X) + Var(Y) (si X y Y son independientes).
                         Es una medida de dispersión que caracteriza la "volatilidad" o "dispersión" de la variable aleatoria.
                         Desviación estándar (σ):
 
-                        <h2>La desviación estándar es la raíz cuadrada de la variancia:</h2>
+                        <h3>La desviación estándar es la raíz cuadrada de la variancia:</h3>
                         Representa la dispersión o volatilidad típica de los valores de X alrededor de su valor esperado E[X].
                         Tiene una interpretación gráfica y probabilística muy útil
                         Aproximadamente el 68% de los valores caen en [E[X] - σ, E[X] + σ]
                         Aproximadamente el 95% de los valores caen en [E[X] - 2σ, E[X] + 2σ]
                         Aproximadamente el 99.7% de los valores caen en [E[X] - 3σ, E[X] + 3σ]
-                        La desviación estándar es una medida de dispersión crucial en el análisis estadístico.</li>
+                        La desviación estándar es una medida de dispersión crucial en el análisis estadístico.
                     </section>
                     <section id="3.2.4 Función acumulada">
                       <h2>3.2.4 Función acumulada</h2>
@@ -450,6 +457,65 @@ code {
                         Usamos la CDF:
                         P(a < X < b) = P(X ≤ b) - P(X ≤ a) = F(b) - F(a)</li>
                     </section>
+                    <h2>TEMA 4: Distribuciones de Probabilidad.</h2>
+                    <section id="4.1 Función de probabilidad:">
+                      <h2>4.1 Función de probabilidad:</h2>
+                      <li>La función de probabilidad, también conocida como función de masa de probabilidad, es una función matemática que describe la probabilidad de que una variable aleatoria discreta X tome un cierto valor x.  
+  
+                        <li>Características clave de la función de probabilidad: </li>
+                           
+                        <li>Dominio: La función de probabilidad está definida para los posibles valores que puede tomar la variable aleatoria X. Es decir, el dominio de la función de probabilidad son los valores discretos que puede asumir X.</li>
+                        
+                        <li>Rango: El rango de la función de probabilidad está acotado entre 0 y 1, ya que representa probabilidades.</li>
+                    </section>
+                    <section id= "4.2 Distribución binomial.">
+                      <h2>4.2 Distribución binomial.</h2>
+                      <li>La distribución binomial modela la probabilidad de éxitos en un número fijo de ensayos de Bernoulli independientes.
+                        Los parámetros son n (número de ensayos) y p (probabilidad de éxito en cada ensayo).
+                        La función de masa de probabilidad es: f(k; n, p) =
+                        nk
+                        pk(1
+                        p)n
+                        k</li>
+                      </section>
+                      <section id="4.3 Distribución hipergeométrica">
+                        <h2>4.3 Distribución hipergeométrica</h2>
+                        <li>La distribución hipergeométrica modela la probabilidad de éxitos en un número fijo de extracciones sin reemplazo de una población finita.</li>
+                            <p>f(k; N, n, K) = (K<sub>k</sub>) (N<sub>K</sub> n<sub>k</sub>) (N<sub>n</sub>)</p>
+                          <li>Los parámetros son N (tamaño de la población), n (tamaño de la muestra) y K (número de éxitos en la población).</li>
+                      </section>
+                      <section id="4.4 Distribución de Poisson.">
+                        <h2>4.4 Distribución de Poisson.</h2>
+                        <li>La distribución de Poisson modela la probabilidad de ocurrencia de eventos independientes en un intervalo de tiempo o espacio.
+                          El único parámetro es λ (tasa media de ocurrencia de los eventos).</li>
+                          <p>f(k;) = e<sup>k</sup> / k!</p>
+                      </section>
+                      <section id="4.5 Distribución normal.">
+                        <h2>4.5 Distribución normal.</h2>
+                        La distribución normal, también conocida como distribución gaussiana, es una distribución de probabilidad continua, ampliamente utilizada en estadística.
+                          Se caracteriza por ser una distribución simétrica, unimodal y en forma de campana.
+                          Está completamente definida por dos parámetros: la media (μ) y la desviación estándar (σ).
+                          <p>f(x; μ, σ²) = (1 / (√(2π) * σ)) * e<sup>-((x - μ)²) / (2 * σ²)</sup></p>
+                      </section>
+                      <section id="4.6 Distribución T-student">
+                        <h2>4.6 Distribución T-student</h2>
+                        La distribución t-Student, o simplemente distribución t, es una distribución de probabilidad continua.
+                          Se utiliza cuando se trabaja con muestras pequeñas y la varianza de la población es desconocida.
+                          A diferencia de la distribución normal, la distribución t tiene un único parámetro: los grados de libertad (v).
+                          Conforme el número de grados de libertad aumenta, la distribución t se aproxima a la distribución normal.
+                      </section>
+                      <section id="4.7 Distribución Chi-cuadrada">
+                        <h2>4.7 Distribución Chi-cuadrada</h2>
+                        La distribución Chi-cuadrada es una distribución de probabilidad continua.
+                          Se utiliza para evaluar la varianza de una población cuando la variable aleatoria sigue una distribución normal.
+                          Tiene un único parámetro: los grados de libertad (v).
+                      </section>
+                      <section id="4.8 Distribución F">
+                        <h2>4.8 Distribución F</h2>
+                        La distribución F, también conocida como distribución de Snedecor, es una distribución de probabilidad continua.
+                          Se utiliza para comparar las varianzas de dos poblaciones normales e independientes.
+                          Tiene dos parámetros: los grados de libertad del numerador (d1) y los grados de libertad del denominador (d2).
+                      </section>
     </section>
 </main>
 </body>
